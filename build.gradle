@@ -1,0 +1,7 @@
+plugins { id 'war' }
+
+war {
+  doLast {
+    war.properties.sort { it.key }.each { println "Prop: $it.key , Value: $it.value" }
+  }
+}

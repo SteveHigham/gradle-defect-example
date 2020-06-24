@@ -1,0 +1,96 @@
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :war
+Prop: WAR_EXTENSION , Value: war
+Prop: actions , Value: [org.gradle.api.internal.AbstractTask$TaskActionWrapper@65346f9b, org.gradle.api.internal.AbstractTask$ClosureTaskAction@7d862fdc]
+Prop: ant , Value: org.gradle.api.internal.project.DefaultAntBuilder@79324dd2
+Prop: appendix , Value: null
+Prop: archiveAppendix , Value: task ':war' property 'archiveAppendix'
+Prop: archiveBaseName , Value: task ':war' property 'archiveBaseName'
+Prop: archiveClassifier , Value: task ':war' property 'archiveClassifier'
+Prop: archiveExtension , Value: task ':war' property 'archiveExtension'
+Prop: archiveFile , Value: task ':war' property 'archiveFile'
+Prop: archiveFileName , Value: task ':war' property 'archiveFileName'
+Prop: archiveName , Value: gradle-defect-example.war
+Prop: archivePath , Value: /home/steve/dev/gradle-defect-example/build/libs/gradle-defect-example.war
+Prop: archiveVersion , Value: task ':war' property 'archiveVersion'
+Prop: asDynamicObject , Value: DynamicObject for task ':war'
+Prop: baseName , Value: gradle-defect-example
+Prop: caseSensitive , Value: true
+Prop: class , Value: class org.gradle.api.tasks.bundling.War_Decorated
+Prop: classifier , Value: 
+Prop: classpath , Value: file collection
+Prop: compressor , Value: org.gradle.api.internal.file.copy.DefaultZipCompressor@28822411
+Prop: convention , Value: org.gradle.internal.extensibility.DefaultConvention@6e0cce2d
+Prop: conventionMapping , Value: org.gradle.internal.extensibility.ConventionAwareHelper@22b8f4ff
+Prop: dependsOn , Value: [org.gradle.api.plugins.WarPlugin$1$$Lambda$259/0x000000080057b040@1c856520]
+Prop: description , Value: Generates a war archive with all the compiled classes, the web-app content and the libraries.
+Prop: destinationDir , Value: /home/steve/dev/gradle-defect-example/build/libs
+Prop: destinationDirectory , Value: task ':war' property 'destinationDirectory'
+Prop: destroyables , Value: org.gradle.api.internal.tasks.DefaultTaskDestroyables@498f71a7
+Prop: didWork , Value: true
+Prop: dirMode , Value: null
+Prop: directoryFileTreeFactory , Value: org.gradle.api.internal.file.collections.DefaultDirectoryFileTreeFactory@10416b4e
+Prop: duplicatesStrategy , Value: INCLUDE
+Prop: enabled , Value: true
+Prop: entryCompression , Value: DEFLATED
+Prop: excludes , Value: []
+Prop: extension , Value: war
+Prop: extensions , Value: org.gradle.internal.extensibility.DefaultConvention@6e0cce2d
+Prop: fileLookup , Value: org.gradle.api.internal.file.DefaultFileLookup@1adde1d9
+Prop: fileMode , Value: null
+Prop: fileResolver , Value: org.gradle.api.internal.file.BaseDirFileResolver@7094762b
+Prop: fileSystem , Value: org.gradle.internal.nativeintegration.filesystem.services.GenericFileSystem@11e83bd8
+Prop: filteringCharset , Value: UTF-8
+Prop: finalizedBy , Value: org.gradle.api.internal.tasks.DefaultTaskDependency@6e842667
+Prop: group , Value: build
+Prop: hasCustomActions , Value: true
+Prop: identityPath , Value: :war
+Prop: impliesSubProjects , Value: false
+Prop: includeEmptyDirs , Value: true
+Prop: includes , Value: []
+Prop: inputs , Value: org.gradle.api.internal.tasks.DefaultTaskInputs@78e1b3b2
+Prop: instantiator , Value: org.gradle.internal.instantiation.generator.DependencyInjectingInstantiator@7f4ec21d
+Prop: localState , Value: org.gradle.api.internal.tasks.DefaultTaskLocalState@1d1bbf5d
+Prop: logger , Value: org.gradle.internal.logging.slf4j.DefaultContextAwareTaskLogger@2f2bf710
+Prop: logging , Value: org.gradle.internal.logging.compatbridge.LoggingManagerInternalCompatibilityBridge@7c5df9f0
+Prop: mainSpec , Value: org.gradle.api.internal.file.copy.SingleParentCopySpec@9d4a9ea
+Prop: manifest , Value: org.gradle.api.java.archives.internal.DefaultManifest@49f50eda
+Prop: manifestContentCharset , Value: UTF-8
+Prop: metadataCharset , Value: UTF-8
+Prop: modelIdentityDisplayName , Value: task ':war'
+Prop: mustRunAfter , Value: org.gradle.api.internal.tasks.DefaultTaskDependency@56f062ee
+Prop: name , Value: war
+Prop: onlyIf , Value: org.gradle.api.specs.AndSpec@104d22dd
+Prop: outputs , Value: org.gradle.api.internal.tasks.DefaultTaskOutputs@2a170f28
+Prop: path , Value: :war
+Prop: preserveFileTimestamps , Value: true
+Prop: project , Value: root project 'gradle-defect-example'
+Prop: reproducibleFileOrder , Value: false
+Prop: requiredServices , Value: []
+Prop: rootSpec , Value: org.gradle.api.internal.file.copy.DefaultCopySpec_Decorated@6a07879
+Prop: services , Value: ProjectScopeServices
+Prop: sharedResources , Value: []
+Prop: shouldRunAfter , Value: org.gradle.api.internal.tasks.DefaultTaskDependency@115c224c
+Prop: source , Value: file tree
+Prop: standardOutputCapture , Value: org.gradle.internal.logging.compatbridge.LoggingManagerInternalCompatibilityBridge@7c5df9f0
+Prop: state , Value: org.gradle.api.internal.tasks.TaskStateInternal@67c235a9
+Prop: taskActions , Value: [org.gradle.api.internal.AbstractTask$TaskActionWrapper@65346f9b, org.gradle.api.internal.AbstractTask$ClosureTaskAction@7d862fdc]
+Prop: taskDependencies , Value: org.gradle.api.internal.tasks.DefaultTaskDependency@32920ef0
+Prop: taskIdentity , Value: TaskIdentity{path=:war, type=class org.gradle.api.tasks.bundling.War, uniqueId=179}
+Prop: taskThatOwnsThisObject , Value: task ':war'
+Prop: temporaryDir , Value: /home/steve/dev/gradle-defect-example/build/tmp/war
+Prop: temporaryDirFactory , Value: org.gradle.api.internal.AbstractTask$15@6946c829
+Prop: timeout , Value: property(java.time.Duration, undefined)
+Prop: version , Value: null
+Prop: webXml , Value: null
+Prop: zip64 , Value: false
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 525ms
+1 actionable task: 1 executed
